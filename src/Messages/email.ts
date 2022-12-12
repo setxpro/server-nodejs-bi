@@ -14,12 +14,12 @@ const transporter = TestAccount.createTransport({
   },
 } as any);
 
-export const sendMail = async (message: string) => {
+export const sendMail = async (message: string, to: string[]) => {
   const mailSent = await transporter.sendMail({
     subject: "Fluxo de dados",
     text: `${message}`,
     from: "NodeJS <patrick.anjos@bagaggio.com.br>",
-    to: ["patrick.anjos@bagaggio.com.br"],
+    to: to,
   });
 
   return mailSent;

@@ -1,5 +1,5 @@
 import * as MSSQL from "mssql";
-// import { sendMail } from "./../Messages/email";
+import { sendMail } from "./../Messages/email";
 
 const config = {
   user: `${process.env.DB_USER}`,
@@ -20,8 +20,8 @@ export const connectMssql = async () => {
       console.log("Connected with MSSQL");
     });
   } catch (error: any) {
-    // ... error checks
-    // sendMail(error);
+    let to = ["patrick.anjos@bagaggio.com.br"];
+    sendMail(error, to);
     console.log(error);
   }
 };
