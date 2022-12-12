@@ -24,5 +24,6 @@
 
 ## Techs and libs
 
+- [x] Typescript
 - [x] NodeJS
 - [x] Nodemailer
