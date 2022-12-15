@@ -18,9 +18,8 @@ export const sendMail = async (message: string, to: string[]) => {
   const mailSent = await transporter.sendMail({
     subject: "Fluxo de dados",
     text: `${message}`,
-    from: "NodeJS <patrick.anjos@bagaggio.com.br>",
+    from: "SharkJS <patrick.anjos@bagaggio.com.br>",
     to: to,
   });
-
   return mailSent;
 };
