@@ -1,0 +1,71 @@
+1 ) Fase de modelagem do sistema
+
+# Modelagem do banco de dados
+
+# Tabelas
+
+    ° LOJAS
+        - id
+        - codigo_loja
+
+    ° SENSORES
+        - id
+        - codigo_loja
+        - datetime
+        - numero_pessoas
+
+
+# O que precisamos no momento ?
+    * 
+    * 
+    * 
+
+# Quem vai cadastrar as lojas ?
+    * 
+    * 
+    * 
+
+# Quem vai receber os E-mails de sucesso ?
+    * ["", "", "", ""]
+    * 
+    * 
+
+
+# Quem vai receber os E-mails de erro ?
+    * ["patrick.anjos@bagaggio.com.br"]
+    * 
+    * 
+
+
+# VAi precisar de uma página web ou será incrementrado no portal ?
+    * 
+    * 
+    * 
+
+
+1.1 ) O que está pronto ?
+
+- Api de busca dos SENSORES
+- Api de busca das lojas e SENSORES
+- Api de registro de lojas
+- Api de registro de SENSORES
+- Mensagens de alerta para o e-mail
+- configuração do banco na aplicação
+- Conexão do banco 
+
+
+1.2 ) O que falta ?
+
+- Usuário
+- Senha
+- Hospedagem do NodeJS
+- Criação das Tabelas
+- Criação dos metodos Sql
+- Testes na aplicação 
+- Testes com o banco 
+
+
+2 ) Fase de testes 
+
+
+Tempo de serviço 2 semanas.
