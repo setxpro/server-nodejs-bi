@@ -17,7 +17,6 @@ export const registerMall = async (req: Request, res: Response) => {
     res.status(200).json(data);
     return data;
   } catch (error) {
-    console.log(error);
     let to = ["patrick.anjos@bagaggio.com.br"];
     sendMail(`Error sending request to server. e ${error}`, to);
     res.status(500).json({ message: "Error sending request to server." });

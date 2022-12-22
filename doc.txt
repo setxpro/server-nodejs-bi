@@ -17,31 +17,20 @@
 
 # O que precisamos no momento ?
     * 
-    * 
-    * 
 
 # Quem vai cadastrar as lojas ?
-    * 
-    * 
     * 
 
 # Quem vai receber os E-mails de sucesso ?
     * ["", "", "", ""]
-    * 
-    * 
 
 
 # Quem vai receber os E-mails de erro ?
     * ["patrick.anjos@bagaggio.com.br"]
-    * 
-    * 
 
 
 # VAi precisar de uma página web ou será incrementrado no portal ?
     * 
-    * 
-    * 
-
 
 1.1 ) O que está pronto ?
 

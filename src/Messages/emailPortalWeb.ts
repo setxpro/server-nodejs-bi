@@ -14,9 +14,9 @@ const transporter = TestAccount.createTransport({
   },
 } as any);
 
-export const sendMail = async (message: string, to: string[]) => {
+export const emailPortalWeb = async (message: string, to: string[]) => {
   const mailSent = await transporter.sendMail({
-    subject: "Contador de Fluxo",
+    subject: "BAG WEB",
     text: `${message}`,
     from: "SharkJS <patrick.anjos@bagaggio.com.br>",
     to: to,
