@@ -1,9 +1,9 @@
 <h1 align="center">
- Servidor de manitoramento
+ Sistema de manitoramento
 </h1>
 <p>
     <strong>Projeto BI</strong> - 
-   Servidor de manitoramento do fluxo de entrada de clientes nas lojas espalhadas pelo Brasil.<br/>
+   Sistema de manitoramento do fluxo de entrada de clientes nas lojas espalhadas pelo Brasil.<br/>
 </p>
 <p>
    Sua maior missão é buscar os dados via APi dos hardwares que serão implementados nas lojas
